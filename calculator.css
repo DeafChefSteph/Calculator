@@ -1,0 +1,46 @@
+#outputField{
+    background-color: gray;
+    display: table;
+    
+}
+#outputField{
+    text-align: right;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+button{
+    font-size: 2rem;
+}
+#calculatorBody{
+    width: 35rem;
+    height: 40rem;
+    background-color: darkblue;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 6.2rem 6.2rem 6.2rem 6.2rem 6.2rem;
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+#outputField{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+#plusButton{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+#equalsButton{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+#onButton{
+    font-size: 1.4rem;
+}
+#clearButton{
+    font-size: 1.4rem;
+}
