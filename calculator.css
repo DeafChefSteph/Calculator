@@ -1,13 +1,19 @@
+h1{
+    text-align: center;
+}
 #outputField{
     background-color: gray;
     display: table;
+    text-align: right;
+
+    width: 560px;
+    height: 130px;
     
 }
-#outputField{
-    text-align: right;
-    vertical-align: middle;
-    display: table-cell;
+#operationParagraph{
+    font-size: 40px;
 }
+
 
 button{
     font-size: 2rem;
